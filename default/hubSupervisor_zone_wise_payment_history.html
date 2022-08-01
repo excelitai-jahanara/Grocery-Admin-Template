@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8" />
-  <title> Product Delivery Complete List</title>
+  <title> Hub Supervisor Zone wise payment history</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="Grocery E-com" name="description" />
   <meta content="Coderthemes" name="author" />
@@ -66,6 +66,23 @@
       color: #8B6BE8 !important;
     }
 
+    .zone-btn-holder .zone-btn {
+
+      background: #0E97AA;
+      border-radius: 5px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 17px;
+      text-align: center;
+      /* text-align: center;
+      width: 222px;
+      height: 37px; */
+      padding: 8px 20px;
+      color: #FFFFFF;
+
+
+    }
+
     table tr {
       vertical-align: middle;
       font-family: 'Tahoma';
@@ -77,7 +94,6 @@
       font-weight: 700;
       font-size: 12px;
       line-height: 15px;
-      /* text-align: center; */
       color: #717A82;
     }
 
@@ -87,223 +103,129 @@
       font-weight: 400;
       font-size: 12px;
       line-height: 15px;
-      /* text-align: center; */
       color: #5F5F5F;
+    }
+
+    .clr-green {
+      color: #24AC0E !important;
+    }
+
+    .clr-org {
+      color: #D25600 !important;
+    }
+
+    .clr-yel {
+      color: #FFA500 !important;
 
     }
 
-    .auto-fill {
-      color: #C2C0C0;
+    .clr-blue {
+      color: #15B3C6 !important;
     }
 
-    .notif-btn {
-      background: rgba(224, 68, 68, 0.2);
-      border: 1px solid #E04444;
-      color: #E04444;
-      border-radius: 20px;
-      padding: 8px 15px;
-    }
+    .pending-btn {
 
-    .jfss-submit-btn {
-      font-family: 'Inter';
-      font-style: normal;
       font-weight: 400;
       font-size: 14px;
       line-height: 19px;
-      color: #5F5F5F;
-      background: #FFFFFF;
-      border: 1px solid #5F5F5F;
-      border-radius: 5px;
+      background: rgba(210, 86, 0, 0.2);
+      border-radius: 20px;
+      color: #D25600;
+      padding: 6px 20px;
+      /* text-align: center;
+      width: 100px;
+      height: 30px; */
     }
 
+    .submit-btn {
 
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      background: rgba(64, 201, 30, 0.2);
+      border-radius: 20px;
+      color: #40C91E;
+      padding: 6px 20px;
+    }
 
-    .jfss-submit-btn .active,
-    .jfss-submit-btn:active,
-    .jfss-submit-btn:focus {
-      background: #0984e3;
-      border: none;
-      color: #FFFFFF;
+    .not-complete-btn {
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      background: rgba(255, 0, 0, 0.05);
+      border-radius: 20px;
+      color: #FF0000;
+      padding: 6px 20px;
+    }
+
+    .approve-btn {
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      background: rgba(21, 179, 198, 0.2);
+      border-radius: 20px;
+      color: #15B3C6;
+      padding: 6px 30px;
+
     }
 
     .dataTables_length {
       display: none;
     }
 
-    table tr td .pending {
-      color: #D25600;
-      background: rgba(210, 86, 0, 0.2);
-      border-radius: 20px;
-      padding: 8px 18px;
-      border: 1px solid #D25600;
-    }
-
-    table tr td .complete {
-      color: #40C91E;
-      background: rgba(64, 201, 30, 0.2);
-      border-radius: 20px;
-      padding: 8px 15px;
-      border: 1px solid #40C91E;
-    }
-
-    table tr td .return {
-      color: #D20000;
-      background: rgba(255, 0, 0, 0.2);
-      border: 1px solid #D20000;
-      border-radius: 20px;
-      padding: 8px 20px;
-    }
-
-    .edit i,
-    .edit:hover i {
-      color: #000000;
-    }
-
-    .jfss-edit-btn {
-      background: #B8E6F0;
-      border-radius: 10px;
-      padding: 7px 12px;
-    }
-
-    /* .dataTables_length {
-      display: none;
-    }
-
     .dataTables_filter {
       display: none;
-    } */
+    }
 
-    .package-list {
-      background: #00666C;
+    .metting-id-wrap {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+      background: #0E97AA;
       border-radius: 5px;
-      padding: 10px;
-      margin-bottom: 20px;
+      width: 235px;
+      padding: 4px 10px;
+      margin-bottom: 30px;
     }
 
-
-
-    .package-list h6 {
-      border-radius: 5px;
-      font-family: 'Inter';
-      font-style: normal;
+    .metting-id-wrap h6 {
       font-weight: 400;
       font-size: 16px;
-      line-height: 19px;
-
+      line-height: 24px;
       color: #FFFFFF;
     }
-
-    .add-package-btn-hlder {
-      margin-bottom: 20px;
-    }
-
-    .add-package-btn-hlder .add-package-btn {
-      background: #16A085;
-      border-radius: 5px;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-      padding: 8px 20px;
-      color: #FFFFFF;
-
-    }
-
-    .pending {
-      background: rgba(210, 86, 0, 0.2);
-      border-radius: 20px;
-    }
-
-    .complete-btn {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 19px;
-      color: #04D200;
-      background: rgba(4, 210, 0, 0.15);
-      border-radius: 20px;
-      padding: 6px 15px;
-    }
-
-    .submit {
-      background: rgba(4, 210, 0, 0.2);
-      border-radius: 20px;
-      padding: 6px 20px;
-      color: #04D200;
-
-    }
-
-    .package-list-content h6 {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-      margin-right: 10px;
-      color: #FFFFFF;
-      margin: 5px 15px;
-
-    }
-
-    h6.package-lists {
-
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 19px;
-      margin-right: 10px;
-      color: #FFFFFF;
-      margin: 0 15px;
-    }
-
-
 
     @media (max-width:575px) {
-      .metting-id-wrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
+      /* 
       div.dataTables_wrapper div.dataTables_filter label {
         font-weight: normal;
         white-space: nowrap;
         text-align: left;
         font-size: 12px !important;
-      }
+      } */
 
       .row>* {
         padding-right: 0 !important;
         padding-left: 0 !important;
       }
 
-      .dataTables_filter label input {
+      /* .dataTables_filter label input {
         width: 70% !important;
-      }
-
-      .package-list-content h6 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-      }
+      } */
     }
 
     @media (max-width:320px) {
-      .metting-id-wrap {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
       .merchant-header {
         margin: 20px;
       }
 
+      /* 
       .dataTables_filter label input {
         width: 70% !important;
-      }
+      } */
 
       .header-title {
         font-size: 22px;
@@ -311,10 +233,6 @@
         margin-left: 20px;
       }
 
-      .metting-id-wrap .mettingId {
-        font-size: 16px;
-        padding: 10px 20px;
-      }
     }
   </style>
 
@@ -322,7 +240,7 @@
 
 <!-- body start -->
 
-<body class="loading return-product" style="background: #D1CEF4;"
+<body class="loading return-product" style="background:#D1CEF4;"
   data-layout='{"mode": "light", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "light", "size": "default", "showuser": false}, "topbar": {"color": "dark"}, "showRightSidebarOnPageLoad": true}'>
 
   <!-- Begin page -->
@@ -420,8 +338,6 @@
             </a>
           </li>
 
-
-
           <li class="dropdown notification-list topbar-dropdown">
             <a class="nav-link dropdown-toggle waves-effect waves-light" data-bs-toggle="dropdown" href="#"
               role="button" aria-haspopup="false" aria-expanded="false">
@@ -453,9 +369,6 @@
                     <small>Hi, How are you? What about our next meeting</small>
                   </p>
                 </a>
-
-
-
                 <!-- All-->
                 <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
                   View all
@@ -464,7 +377,6 @@
 
               </div>
           </li>
-
 
           <li class="dropdown notification-list topbar-dropdown">
             <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown"
@@ -475,7 +387,6 @@
               </span>
             </a>
             <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
-
 
               <!-- item-->
               <a href="javascript:void(0);" class="dropdown-item notify-item">
@@ -488,7 +399,6 @@
                 <i class="fe-settings"></i>
                 <span>Change Password</span>
               </a>
-
 
               <!-- item-->
               <a href="javascript:void(0);" class="dropdown-item notify-item">
@@ -504,7 +414,6 @@
               <i class="fe-settings noti-icon"></i>
             </a>
           </li>
-
         </ul>
 
         <!-- LOGO -->
@@ -548,9 +457,6 @@
             </a>
             <!-- End mobile menu toggle-->
           </li>
-
-
-
         </ul>
         <div class="clearfix"></div>
       </div>
@@ -559,13 +465,10 @@
 
     <!-- ========== Left Sidebar Start ========== -->
     <div class="left-side-menu" style="width: 263px;">
-
       <div class="h-100" data-simplebar>
-
 
         <!--- Sidemenu -->
         <div id="sidebar-menu">
-
           <ul id="side-menu">
             <li>
               <a href="#hubPanel" data-bs-toggle="collapse">
@@ -614,10 +517,8 @@
         <!-- End Sidebar -->
 
         <div class="clearfix"></div>
-
       </div>
       <!-- Sidebar -left -->
-
     </div>
     <!-- Left Sidebar End -->
 
@@ -627,96 +528,70 @@
       <div class="content">
         <div class="container-fluid mt-3">
           <div class="row">
-            <h3 class="pb-2 merchant-header">Product Delivery Complete List</h3>
+            <h3 class="pb-2 merchant-header">All Delivery Boy Payment History</h3>
             <div class="col-12">
               <div class="card">
                 <div class="card-body">
+                  <div class="add-package-wrap d-flex justify-content-between align-items-center flex-wrap ">
+
+                    <div class="metting-id-wrap">
+                      <h6 class="mettingId">Zone Name : <span> Mohakhali</span></h6>
+                      <h6 class="mettingId">Zone ID = <span>254878</span></h6>
+                    </div>
+
+
+                    <div class="zone-btn-holder">
+                      <a href="hubSupervisor_zone_add_payment.html" class="zone-btn"> Zone Supervisor Add Payment</a>
+                    </div>
+                  </div>
+
 
                   <table id="datatable-buttons" class="table table-striped nowrap w-100">
 
                     <thead>
                       <tr>
-                        <th>Parcel recived <br> date & time
-                        </th>
-                        <th>Merchant id</th>
-                        <th>Merchant <br> packege <br> number</th>
-                        <th>Invoice number or order number</th>
-                        <th>Customer name</th>
-                        <th>Customer <br> phone <br> number</th>
-                        <th> Customer Address</th>
-                        <th>Package <br> category</th>
-                        <th>Package weight</th>
-                        <th>Customer <br> expected <br> delivary time</th>
-                        <th>Payment type</th>
-                        <th>Product price</th>
-                        <th>Delivery fee</th>
-                        <th>Recievable <br> amount from <br> Customer</th>
-                        <th>Supervisor Name</th>
-                        <th>Delivery boy <br> Product <br> Delivery status</th>
-
+                        <th> Transaction Date</th>
+                        <th>Zone Supervisor Name</th>
+                        <th>Supervisor ID</th>
+                        <th>Payment <br> Description</th>
+                        <th>Total payment received <br> from courier boy</th>
+                        <th>Total deposite at <br> bank account</th>
+                        <th>Total deposite at <br> Cash</th>
+                        <th>Balance amount</th>
+                        <th>Transection <br> Complete</th>
+                        <th>Aproved From <br> Accounts Officer</th>
+                        <th>Aproved Accounts <br> Officer Name</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>2022-05-21 <br> 12:53:57</td>
-                        <td>01234568791</td>
-                        <td>0105245</td>
-                        <td>01234568791</td>
-                        <td>Mr. Abdul Hakim</td>
-                        <td>661675542598</td>
-                        <td>Moghbazar, Dhaka 1219</td>
-                        <td>66167554568</td>
-                        <td>50kg</td>
-                        <td>11:53:57</td>
-                        <td>Cash On Delivery</td>
-                        <td>10000</td>
-                        <td>60</td>
-                        <td>10060</td>
-                        <td>Mr. Arman</td>
-                        <td><span class="pending">Pending</span></td>
+                        <td>2022-05-25</td>
+                        <td>Mr. Hamid</td>
+                        <td>#5248678 </td>
+                        <td>Agrani Bank</td>
+                        <td class="clr-org">40,000 </td>
+                        <td class="clr-green"> 450000</td>
+                        <td class="clr-yel"> 18000</td>
+                        <td class="clr-blue"> 13000</td>
+                        <td class=" "> <span class="pending-btn">Pending</span></td>
+                        <td class=" "> <span class="not-complete-btn">Not Complete</span></td>
+                        <td>Auto Fill</td>
                       </tr>
                       <tr>
-                        <td>2022-05-21 <br> 12:53:57</td>
-                        <td>01234568791</td>
-                        <td>0105245</td>
-                        <td>01234568791</td>
-                        <td>Mr. Abdul Hakim</td>
-                        <td>661675542598</td>
-                        <td>Moghbazar, Dhaka 1219</td>
-                        <td>66167554568</td>
-                        <td>50kg</td>
-                        <td>11:53:57</td>
-                        <td>Paid</td>
-                        <td>10000</td>
-                        <td>60</td>
-                        <td>10060</td>
-
-                        <td>Mr. Arman</td>
-                        <td><span class="complete">Complete</span></td>
-
-
+                        <td>2022-05-25</td>
+                        <td>Mr. Hamid</td>
+                        <td>#5248678 </td>
+                        <td>Agrani Bank</td>
+                        <td class="clr-org">40,000 </td>
+                        <td class="clr-green"> 450000</td>
+                        <td class="clr-yel"> 18000</td>
+                        <td class="clr-blue"> 13000</td>
+                        <td class=" "> <span class="submit-btn">Submit</span></td>
+                        <td class=" "> <span class="approve-btn">Approved</span></td>
+                        <td>Auto Fill</td>
                       </tr>
-                      <tr>
-                        <td>2022-05-21 <br> 12:53:57</td>
-                        <td>01234568791</td>
-                        <td>0105245</td>
-                        <td>01234568791</td>
-                        <td>Mr. Abdul Hakim</td>
-                        <td>661675542598</td>
-                        <td>Moghbazar, Dhaka 1219</td>
-                        <td>66167554568</td>
-                        <td>50kg</td>
-                        <td>11:53:57</td>
-                        <td>Paid</td>
-                        <td>10000</td>
-                        <td>60</td>
-                        <td>10060</td>
-
-                        <td>Mr. Arman</td>
-                        <td><span class="return">Return</span></td>
 
 
-                      </tr>
                     </tbody>
                   </table>
                 </div> <!-- end card body-->
